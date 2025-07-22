@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: ev_analytics      # your Snowflake database
+    schema: raw                 # schema with your raw data
+    tables:
+      - name: ev_charging_stations
