@@ -108,7 +108,7 @@ Use mart_ev_summary for visualization.
 
 ---
 
-### Future Improvements
+## Future Improvements
 Real-Time Data Integration: Stream EV charging station updates via APIs.
 
 Predictive Analytics: Apply ML models to forecast usage and energy demand.
