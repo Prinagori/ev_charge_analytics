@@ -80,3 +80,41 @@ The dashboard consists of:
 ```bash
 git clone https://github.com/Prinagori/ev_charge_analytics.git
 cd ev_charge_analytics
+
+---
+
+### 2. Install Dependencies
+```bash
+Copy
+Edit
+dbt deps
+
+---
+### 3. Run dbt Models
+```bash
+Copy
+Edit
+dbt debug
+dbt run
+dbt test
+
+---
+### 4. Connect Looker Studio
+Add Snowflake as a data source.
+
+Select schema DBT_<your_name>.
+
+Use mart_ev_summary for visualization.
+
+---
+
+### Future Improvements
+Real-Time Data Integration: Stream EV charging station updates via APIs.
+
+Predictive Analytics: Apply ML models to forecast usage and energy demand.
+
+Geo-Mapping: Display station locations using interactive maps.
+
+Automation: Schedule dbt jobs and auto-refresh dashboards.
+
+
